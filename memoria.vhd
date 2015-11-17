@@ -44,4 +44,4 @@ begin
 	       		saida( 31 downto 24 ) <= celula( conv_integer( endereco )+3 ); 
 	    	end if; 
 		end process;
-end architecture
+end architecture;
