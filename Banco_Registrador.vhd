@@ -1,7 +1,7 @@
 library ieee; 
-2 USE ieee.std_logic_1164.all; 
-3 USE ieee.std_logic_unsigned.all; 
-4 USE ieee.std_logic_arith.all; 
+USE ieee.std_logic_1164.all; 
+USE ieee.std_logic_unsigned.all; 
+USE ieee.std_logic_arith.all; 
 
 
 entity Banco_Registrador is 
