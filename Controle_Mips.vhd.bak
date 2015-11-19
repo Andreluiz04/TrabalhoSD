@@ -45,7 +45,7 @@ begin
  			MemRead <= '1'; 
 			MemWrite <= '0'; 
  			Branch <= '0'; 
- 			ULAOP <= "00"; 
+ 			ULAOP <= '00'; 
  		elsif( codigo = "101011" ) then -- SW: 
  			RegDst <= '0'; 
  			ALUSrc <= '1'; 
@@ -54,7 +54,7 @@ begin
  			MemRead <= '0'; 
  			MemWrite <= '1'; 
  			Branch <= '0'; 
- 			ULAOP <= "00"; 
+ 			ULAOP <= '00'; 
 			Jump <= '0'; 
  		elsif( codigo = "000100" ) then -- BEQ: 
  			RegDst <= '0'; 
@@ -64,7 +64,7 @@ begin
  			MemRead <= '0'; 
  			MemWrite <= '0'; 
  			Branch <= '1'; 
-			ULAOP <= "01"; 
+			ULAOP <= '01'; 
  			Jump <= '0';  
  		elsif(codigo = "000010") then -- JUMP: 
  			RegDst <= '0'; 
@@ -74,7 +74,7 @@ begin
  			MemRead <= '0'; 
  			MemWrite <= '0'; 
  			Branch <= '0'; 
- 			ULAOP <= "00"; 
+ 			ULAOP <= '00'; 
  			Jump <= '1';
  		elsif (codigo = "001000") then -- ADDI: 
  			RegDst <= '0'; 
@@ -84,7 +84,7 @@ begin
  			MemRead <= '0'; 
  			MemWrite <= '0'; 
  			Branch <= '0'; 
- 			ULAOP <= "00"; 
+ 			ULAOP <= '00'; 
  			Jump <= '0'; 
  		elsif (codigo = "001100") then -- SLT: 
  			RegDst <= '0'; 
@@ -94,7 +94,7 @@ begin
  			MemRead <= '0'; 
  			MemWrite <= '0'; 
  			Branch <= '0'; 
- 			ULAOP <= "10"; 
+ 			ULAOP <= '10'; 
  			Jump <= '0'; 
  			 
  

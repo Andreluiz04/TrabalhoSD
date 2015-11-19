@@ -36,7 +36,7 @@ begin
 				elsif(funct(3 downto 0) = "1010") then
 					operacao <= "111";
 				elsif(funct(3 downto 0) = "1000") then
-					JR <= '1';
+					JR <= 1;
 				end if;
 			end if;
 	end process;

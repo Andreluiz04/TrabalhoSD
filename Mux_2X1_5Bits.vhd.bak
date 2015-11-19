@@ -16,7 +16,7 @@ end Mux_2X1_5Bits;
 architecture Mux_2X1_5Bits_Arc of Mux_2X1_5Bits is
 begin
 	
-	process(selecao, a, b)
+	process(saida, a, b)
 	begin
 		if(selecao = '0') then
 			saida <= a;
@@ -24,4 +24,4 @@ begin
 			saida <= b;
 		end if;
 	end process;
-	end architecture;
+end architecture;
