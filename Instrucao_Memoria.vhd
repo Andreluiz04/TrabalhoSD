@@ -16,7 +16,6 @@ architecture Instrucao_Memoria_Arc of Instrucao_Memoria is
 	type Inst is array( 255 downto 0 ) of std_logic_vector( 7 downto 0 ); 
     signal instrucao: Inst; 
 
- 
 begin 
    	process(endereco) 
       begin 
