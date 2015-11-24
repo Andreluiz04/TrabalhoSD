@@ -35,7 +35,7 @@ architecture Projeto_Mips_Arc of Projeto_Mips is
 		op: in std_logic_vector(2 downto 0);
 		a: in std_logic_vector(31 downto 0);
 		b: in std_logic_vector(31 downto 0);
-		zero: in std_logic;
+		zero: out std_logic;
 		resultado: out std_logic_vector(31 downto 0)
 	);
 	end component;

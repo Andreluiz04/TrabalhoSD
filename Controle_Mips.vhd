@@ -97,7 +97,6 @@ begin
  			ULAOP <= "10"; 
  			Jump <= '0'; 
  			 
- 
  		end if; 
  	end process; 
 end architecture; 
