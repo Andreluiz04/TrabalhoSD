@@ -3,6 +3,7 @@ library ieee;
  USE ieee.std_logic_unsigned.all; 
  USE ieee.std_logic_arith.all; 
 
+--somador
 
 entity ADD_JP is
 	port(
